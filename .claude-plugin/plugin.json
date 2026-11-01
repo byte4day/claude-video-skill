@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "product-video",
+  "displayName": "Product Video",
+  "version": "0.1.0",
+  "description": "Product/game → researched storyboard → Remotion or Three.js → QA gate → MP4",
+  "author": {
+    "name": "字节4",
+    "url": "https://github.com/byte4day"
+  },
+  "homepage": "https://github.com/byte4day/claude-video-skill",
+  "repository": "https://github.com/byte4day/claude-video-skill",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "remotion",
+    "three.js",
+    "animation",
+    "3d",
+    "storyboard",
+    "product",
+    "game",
+    "trailer",
+    "promo"
+  ]
+}

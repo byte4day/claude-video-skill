@@ -1,0 +1,12 @@
+.video/
+.node_modules/
+node_modules/
+.DS_Store
+*.log
+.relay/
+dist/
+out/
+.remotion/
+.env
+.env.*
+!.env.example

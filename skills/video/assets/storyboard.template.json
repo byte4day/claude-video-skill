@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "slug": "example",
+  "aspect": "16:9",
+  "fps": 30,
+  "totalDurationSec": 15,
+  "compositionId": "Main",
+  "scenes": [
+    {
+      "id": "s1",
+      "startSec": 0,
+      "durationSec": 3,
+      "beat": "hook",
+      "shot": "logo sting on dark field",
+      "onScreenText": "PRODUCT",
+      "voiceover": "",
+      "camera": "push_in",
+      "transition": "hard_cut",
+      "assets": [],
+      "notes": ""
+    },
+    {
+      "id": "s2",
+      "startSec": 3,
+      "durationSec": 8,
+      "beat": "proof",
+      "shot": "hero product orbit",
+      "onScreenText": "One clear benefit",
+      "voiceover": "",
+      "camera": "orbit",
+      "transition": "crossfade",
+      "assets": [],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "startSec": 11,
+      "durationSec": 4,
+      "beat": "cta",
+      "shot": "name lockup + CTA",
+      "onScreenText": "Get it now",
+      "voiceover": "",
+      "camera": "static",
+      "transition": "hard_cut",
+      "assets": [],
+      "notes": ""
+    }
+  ]
+}

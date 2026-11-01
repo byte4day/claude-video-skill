@@ -1,0 +1,16 @@
+{
+  "name": "product-video",
+  "description": "Production video skill for Claude Code — research, storyboard, Remotion/Three.js, QA",
+  "owner": {
+    "name": "字节4",
+    "url": "https://github.com/byte4day"
+  },
+  "plugins": [
+    {
+      "name": "product-video",
+      "source": "./",
+      "description": "Research → storyboard → Remotion/Three → QA → deliver MP4 for products and games",
+      "category": "media"
+    }
+  ]
+}

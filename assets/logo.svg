@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Product Video">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="40" x2="448" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#0A3A42"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="150" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- rounded mark -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#bg)"/>
+
+  <!-- film sprocket frame -->
+  <rect x="108" y="128" width="296" height="256" rx="28" fill="none" stroke="#E8F4F8" stroke-opacity="0.18" stroke-width="10"/>
+  <g fill="#E8F4F8" fill-opacity="0.35">
+    <rect x="128" y="148" width="22" height="28" rx="5"/>
+    <rect x="128" y="198" width="22" height="28" rx="5"/>
+    <rect x="128" y="248" width="22" height="28" rx="5"/>
+    <rect x="128" y="298" width="22" height="28" rx="5"/>
+    <rect x="362" y="148" width="22" height="28" rx="5"/>
+    <rect x="362" y="198" width="22" height="28" rx="5"/>
+    <rect x="362" y="248" width="22" height="28" rx="5"/>
+    <rect x="362" y="298" width="22" height="28" rx="5"/>
+  </g>
+
+  <!-- play / product facet -->
+  <path filter="url(#soft)" fill="url(#accent)" d="M214 178c-6-3.5-13.5 0.8-13.5 8.2v139.6c0 7.4 7.5 11.7 13.5 8.2l126.8-69.8c5.8-3.2 5.8-13.1 0-16.3L214 178z"/>
+
+  <!-- orbit hint (3D) -->
+  <ellipse cx="256" cy="256" rx="168" ry="58" fill="none" stroke="#5EEAD4" stroke-opacity="0.28" stroke-width="6" transform="rotate(-18 256 256)"/>
+</svg>
