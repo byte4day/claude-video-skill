@@ -32,13 +32,15 @@ Tokens: `$ARGUMENTS`, `$0`, `${CLAUDE_SKILL_DIR}`, `${CLAUDE_PLUGIN_ROOT}`, `${C
 name: video-researcher
 description: When to delegate (short — always in context).
 tools: Read, Write, Grep, Glob, Bash, WebSearch, WebFetch
-model: sonnet
+model: sonnet   # aliases: sonnet | opus | haiku | fable | inherit | full IDs
 maxTurns: 40
 skills: [video-research]
 omitClaudeMd: true
 color: cyan
 ---
 ```
+
+`model` accepts short aliases (`sonnet`, `opus`, `haiku`, `fable`), full IDs (`claude-opus-5-5`, …), or `inherit`. Prefer `inherit` on orchestrators; pin aliases only for specialist cost/quality tradeoffs.
 
 Plugin agents: `permissionMode` / agent hooks ignored — use plugin-level hooks.
 

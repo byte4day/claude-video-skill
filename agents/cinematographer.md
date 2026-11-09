@@ -5,7 +5,7 @@ description: >
   time budget. Use after research and before any Remotion/Three build. Stops
   for human storyboard approval unless waived.
 tools: Read, Write, Edit, Grep, Glob, Bash, AskUserQuestion
-model: opus
+model: fable
 maxTurns: 40
 effort: high
 omitClaudeMd: true

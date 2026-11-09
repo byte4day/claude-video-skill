@@ -52,6 +52,10 @@ Staged:
 | `video-renderer` | Remotion / Three build |
 | `video-qa-reviewer` | Independent PASS/FAIL review |
 
+## Models
+
+Claude Code agent `model` fields use aliases (`sonnet`, `opus`, `haiku`, `fable`) or full IDs. Aliases resolve to the current Claude 5.x / Fable lines (for example `opus` → Opus 5.5, `fable` → Fable 5.2). This plugin pins specialists: cinematographer → `fable` (hard creative, long-horizon), QA → `opus`, research/render → `sonnet`, feed scouts → `haiku`. Prefer `inherit` for any new orchestrator agents so the parent session chooses the model.
+
 ## Pipeline gates
 
 1. Research on disk before storyboard  
